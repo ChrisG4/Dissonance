@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Dissonance",
+			"Path": "D:\\Unreal Projects\\Dissonance\\Source\\Dissonance.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DissonanceEditor",
+			"Path": "D:\\Unreal Projects\\Dissonance\\Source\\DissonanceEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

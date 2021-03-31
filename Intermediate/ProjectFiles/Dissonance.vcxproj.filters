@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Dissonance.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E85BFF28-1C40-4420-BA1D-67586F85714E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Dissonance.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DissonanceEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{8258B3A5-4426-4115-82D8-F468490A1C5E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Dissonance">
+      <UniqueIdentifier>{695F6267-7AA8-492F-872B-670F5E9ACE61}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Dissonance\Dissonance.Build.cs">
+      <Filter>Source\Dissonance</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Dissonance\Dissonance.cpp">
+      <Filter>Source\Dissonance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dissonance\Dissonance.h">
+      <Filter>Source\Dissonance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dissonance\DissonanceController.cpp">
+      <Filter>Source\Dissonance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dissonance\DissonanceController.h">
+      <Filter>Source\Dissonance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dissonance\DissonanceGameModeBase.cpp">
+      <Filter>Source\Dissonance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dissonance\DissonanceGameModeBase.h">
+      <Filter>Source\Dissonance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dissonance\PlayerCharacter.cpp">
+      <Filter>Source\Dissonance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dissonance\PlayerCharacter.h">
+      <Filter>Source\Dissonance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dissonance\PlayerSquare.cpp">
+      <Filter>Source\Dissonance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dissonance\PlayerSquare.h">
+      <Filter>Source\Dissonance</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

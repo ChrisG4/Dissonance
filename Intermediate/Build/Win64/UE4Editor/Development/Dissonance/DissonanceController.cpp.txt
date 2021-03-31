@@ -1,0 +1,3 @@
+D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\Definitions.Dissonance.h
+D:\Unreal Projects\Dissonance\Source\Dissonance\DissonanceController.h
+D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Inc\Dissonance\DissonanceController.generated.h
