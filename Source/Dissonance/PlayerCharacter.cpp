@@ -1,7 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-#define print(text) if(GEngine)GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Green, text);
+#define print(text) if(GEngine)GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Green, text);
 
 #include "PlayerCharacter.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
 APlayerCharacter::APlayerCharacter()
@@ -22,24 +23,20 @@ void APlayerCharacter::BeginPlay()
 void APlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 // Called to bind functionality to input
 void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-	PlayerInputComponent->BindAction("PlayerJump", IE_Pressed, this, &APlayerCharacter::StartJump);
-	PlayerInputComponent->BindAction("PlayerJump", IE_Released, this, &APlayerCharacter::StopJump);
 }
 
 void APlayerCharacter::StartJump()
 {
-	bPressedJump = true;
+	this->bPressedJump = true;
 }
 
 void APlayerCharacter::StopJump()
 {
-	bPressedJump = false;
+	this->bPressedJump = false;
 }

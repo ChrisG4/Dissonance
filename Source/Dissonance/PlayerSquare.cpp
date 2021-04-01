@@ -22,8 +22,12 @@ void APlayerSquare::BeginPlay()
 void APlayerSquare::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	JumpTimer += DeltaTime;
 
-	
+	if (JumpTimer > 1.0f) {
+		SetActorLocation(GetActorLocation() + FVector(0, 0, JumpVelocity * DeltaTime));
+		JumpVelocity -= Gravity;
+	}
 }
 
 // Called to bind functionality to input

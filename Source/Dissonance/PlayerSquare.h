@@ -31,6 +31,9 @@ protected:
 	UPROPERTY(EditAnywhere)
 	float JumpTime;
 
+	UPROPERTY(EditAnywhere)
+	float JumpVelocity;
+
 	float CurrentVelocity = 0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Jumping")
