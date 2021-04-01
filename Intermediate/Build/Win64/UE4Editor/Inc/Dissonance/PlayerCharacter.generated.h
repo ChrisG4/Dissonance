@@ -58,7 +58,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APlayerCharacter)
 
 
-#define Dissonance_Source_Dissonance_PlayerCharacter_h_12_PRIVATE_PROPERTY_OFFSET
+#define Dissonance_Source_Dissonance_PlayerCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__VerticalDeceleration() { return STRUCT_OFFSET(APlayerCharacter, VerticalDeceleration); } \
+	FORCEINLINE static uint32 __PPO__VerticalVelocity() { return STRUCT_OFFSET(APlayerCharacter, VerticalVelocity); }
+
+
 #define Dissonance_Source_Dissonance_PlayerCharacter_h_9_PROLOG
 #define Dissonance_Source_Dissonance_PlayerCharacter_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

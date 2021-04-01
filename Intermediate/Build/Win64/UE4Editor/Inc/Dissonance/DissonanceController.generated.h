@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DISSONANCE_DissonanceController_generated_h
 
-#define Dissonance_Source_Dissonance_DissonanceController_h_15_SPARSE_DATA
-#define Dissonance_Source_Dissonance_DissonanceController_h_15_RPC_WRAPPERS
-#define Dissonance_Source_Dissonance_DissonanceController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Dissonance_Source_Dissonance_DissonanceController_h_15_INCLASS_NO_PURE_DECLS \
+#define Dissonance_Source_Dissonance_DissonanceController_h_16_SPARSE_DATA
+#define Dissonance_Source_Dissonance_DissonanceController_h_16_RPC_WRAPPERS
+#define Dissonance_Source_Dissonance_DissonanceController_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define Dissonance_Source_Dissonance_DissonanceController_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesADissonanceController(); \
 	friend struct Z_Construct_UClass_ADissonanceController_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ADissonanceController)
 
 
-#define Dissonance_Source_Dissonance_DissonanceController_h_15_INCLASS \
+#define Dissonance_Source_Dissonance_DissonanceController_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesADissonanceController(); \
 	friend struct Z_Construct_UClass_ADissonanceController_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ADissonanceController)
 
 
-#define Dissonance_Source_Dissonance_DissonanceController_h_15_STANDARD_CONSTRUCTORS \
+#define Dissonance_Source_Dissonance_DissonanceController_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ADissonanceController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ADissonanceController) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Dissonance_Source_Dissonance_DissonanceController_h_15_ENHANCED_CONSTRUCTORS \
+#define Dissonance_Source_Dissonance_DissonanceController_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ADissonanceController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +60,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ADissonanceController); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ADissonanceController)
 
 
-#define Dissonance_Source_Dissonance_DissonanceController_h_15_PRIVATE_PROPERTY_OFFSET
-#define Dissonance_Source_Dissonance_DissonanceController_h_12_PROLOG
-#define Dissonance_Source_Dissonance_DissonanceController_h_15_GENERATED_BODY_LEGACY \
+#define Dissonance_Source_Dissonance_DissonanceController_h_16_PRIVATE_PROPERTY_OFFSET
+#define Dissonance_Source_Dissonance_DissonanceController_h_13_PROLOG
+#define Dissonance_Source_Dissonance_DissonanceController_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Dissonance_Source_Dissonance_DissonanceController_h_15_PRIVATE_PROPERTY_OFFSET \
-	Dissonance_Source_Dissonance_DissonanceController_h_15_SPARSE_DATA \
-	Dissonance_Source_Dissonance_DissonanceController_h_15_RPC_WRAPPERS \
-	Dissonance_Source_Dissonance_DissonanceController_h_15_INCLASS \
-	Dissonance_Source_Dissonance_DissonanceController_h_15_STANDARD_CONSTRUCTORS \
+	Dissonance_Source_Dissonance_DissonanceController_h_16_PRIVATE_PROPERTY_OFFSET \
+	Dissonance_Source_Dissonance_DissonanceController_h_16_SPARSE_DATA \
+	Dissonance_Source_Dissonance_DissonanceController_h_16_RPC_WRAPPERS \
+	Dissonance_Source_Dissonance_DissonanceController_h_16_INCLASS \
+	Dissonance_Source_Dissonance_DissonanceController_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Dissonance_Source_Dissonance_DissonanceController_h_15_GENERATED_BODY \
+#define Dissonance_Source_Dissonance_DissonanceController_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Dissonance_Source_Dissonance_DissonanceController_h_15_PRIVATE_PROPERTY_OFFSET \
-	Dissonance_Source_Dissonance_DissonanceController_h_15_SPARSE_DATA \
-	Dissonance_Source_Dissonance_DissonanceController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Dissonance_Source_Dissonance_DissonanceController_h_15_INCLASS_NO_PURE_DECLS \
-	Dissonance_Source_Dissonance_DissonanceController_h_15_ENHANCED_CONSTRUCTORS \
+	Dissonance_Source_Dissonance_DissonanceController_h_16_PRIVATE_PROPERTY_OFFSET \
+	Dissonance_Source_Dissonance_DissonanceController_h_16_SPARSE_DATA \
+	Dissonance_Source_Dissonance_DissonanceController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	Dissonance_Source_Dissonance_DissonanceController_h_16_INCLASS_NO_PURE_DECLS \
+	Dissonance_Source_Dissonance_DissonanceController_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -49,6 +49,10 @@ void EmptyLinkFunctionForGeneratedCodePlayerSquare() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_JumpTime;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_JumpVelocity_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_JumpVelocity;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsJumping_MetaData[];
 #endif
 		static void NewProp_bIsJumping_SetBit(void* Obj);
@@ -106,6 +110,13 @@ void EmptyLinkFunctionForGeneratedCodePlayerSquare() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerSquare_Statics::NewProp_JumpTime = { "JumpTime", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerSquare, JumpTime), METADATA_PARAMS(Z_Construct_UClass_APlayerSquare_Statics::NewProp_JumpTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerSquare_Statics::NewProp_JumpTime_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerSquare_Statics::NewProp_JumpVelocity_MetaData[] = {
+		{ "Category", "PlayerSquare" },
+		{ "ModuleRelativePath", "PlayerSquare.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APlayerSquare_Statics::NewProp_JumpVelocity = { "JumpVelocity", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlayerSquare, JumpVelocity), METADATA_PARAMS(Z_Construct_UClass_APlayerSquare_Statics::NewProp_JumpVelocity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlayerSquare_Statics::NewProp_JumpVelocity_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlayerSquare_Statics::NewProp_bIsJumping_MetaData[] = {
 		{ "Category", "Jumping" },
 		{ "ModuleRelativePath", "PlayerSquare.h" },
@@ -128,6 +139,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerSquare() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerSquare_Statics::NewProp_Gravity,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerSquare_Statics::NewProp_JumpHeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerSquare_Statics::NewProp_JumpTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerSquare_Statics::NewProp_JumpVelocity,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerSquare_Statics::NewProp_bIsJumping,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlayerSquare_Statics::NewProp_JumpTimer,
 	};
@@ -158,7 +170,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerSquare() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlayerSquare, 790507406);
+	IMPLEMENT_CLASS(APlayerSquare, 3312124675);
 	template<> DISSONANCE_API UClass* StaticClass<APlayerSquare>()
 	{
 		return APlayerSquare::StaticClass();

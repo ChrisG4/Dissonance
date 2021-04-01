@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Dissonance.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E85BFF28-1C40-4420-BA1D-67586F85714E}</UniqueIdentifier>
+      <UniqueIdentifier>{783BF969-2795-4488-A8CF-6C610253A11A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Dissonance.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\DissonanceEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{8258B3A5-4426-4115-82D8-F468490A1C5E}</UniqueIdentifier>
+      <UniqueIdentifier>{07850A5F-EC88-47A0-8ACB-F8835D9B0C14}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Dissonance">
-      <UniqueIdentifier>{695F6267-7AA8-492F-872B-670F5E9ACE61}</UniqueIdentifier>
+      <UniqueIdentifier>{293DC542-4832-454C-8755-C76E4776D71B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Dissonance\Dissonance.Build.cs">
       <Filter>Source\Dissonance</Filter>
@@ -54,6 +56,12 @@
       <Filter>Source\Dissonance</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Dissonance\PlayerCharacter.h">
+      <Filter>Source\Dissonance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dissonance\PlayerPawn.cpp">
+      <Filter>Source\Dissonance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dissonance\PlayerPawn.h">
       <Filter>Source\Dissonance</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Dissonance\PlayerSquare.cpp">

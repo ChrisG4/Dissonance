@@ -63,6 +63,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerSquare); \
 	FORCEINLINE static uint32 __PPO__Gravity() { return STRUCT_OFFSET(APlayerSquare, Gravity); } \
 	FORCEINLINE static uint32 __PPO__JumpHeight() { return STRUCT_OFFSET(APlayerSquare, JumpHeight); } \
 	FORCEINLINE static uint32 __PPO__JumpTime() { return STRUCT_OFFSET(APlayerSquare, JumpTime); } \
+	FORCEINLINE static uint32 __PPO__JumpVelocity() { return STRUCT_OFFSET(APlayerSquare, JumpVelocity); } \
 	FORCEINLINE static uint32 __PPO__bIsJumping() { return STRUCT_OFFSET(APlayerSquare, bIsJumping); } \
 	FORCEINLINE static uint32 __PPO__JumpTimer() { return STRUCT_OFFSET(APlayerSquare, JumpTimer); }
 
