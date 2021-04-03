@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Dissonance.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{783BF969-2795-4488-A8CF-6C610253A11A}</UniqueIdentifier>
+      <UniqueIdentifier>{C7DA32A2-D18C-4C12-8B88-DBE777CEC513}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Dissonance.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{07850A5F-EC88-47A0-8ACB-F8835D9B0C14}</UniqueIdentifier>
+      <UniqueIdentifier>{1018CE2D-6D66-4203-92BB-CF691220C594}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Dissonance">
-      <UniqueIdentifier>{293DC542-4832-454C-8755-C76E4776D71B}</UniqueIdentifier>
+      <UniqueIdentifier>{1C33FC88-97D4-4E49-A88C-6C8182F86B43}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Dissonance\Dissonance.Build.cs">
       <Filter>Source\Dissonance</Filter>
@@ -50,6 +50,18 @@
       <Filter>Source\Dissonance</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Dissonance\DissonanceGameModeBase.h">
+      <Filter>Source\Dissonance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dissonance\HazardTrigger.cpp">
+      <Filter>Source\Dissonance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dissonance\HazardTrigger.h">
+      <Filter>Source\Dissonance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dissonance\Obstacle.cpp">
+      <Filter>Source\Dissonance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dissonance\Obstacle.h">
       <Filter>Source\Dissonance</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Dissonance\PlayerCharacter.cpp">

@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeDissonance_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xA9748A56,
-				0x1DAEFA2C,
+				0xF7319CFF,
+				0x371B8613,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
