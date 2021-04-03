@@ -1,5 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
+#define print(text) if(GEngine)GEngine->AddOnScreenDebugMessage(-1, 0.2f, FColor::Green, text);
 
 #include "PlayerPawn.h"
 
@@ -40,7 +40,8 @@ void APlayerPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 void APlayerPawn::TopStartJump()
 {
-	TopCharacter->StartJump();
+	if(TopCharacter != nullptr)
+		TopCharacter->StartJump();
 }
 
 void APlayerPawn::TopStopJump()
@@ -50,6 +51,7 @@ void APlayerPawn::TopStopJump()
 
 void APlayerPawn::BottomStartJump()
 {
+	print("Pawn bottom Jump");
 	BottomCharacter->StartJump();
 }
 

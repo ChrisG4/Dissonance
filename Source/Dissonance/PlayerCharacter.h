@@ -19,20 +19,6 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditAnywhere, Category = "Jumping")
-	float VerticalDeceleration = 0;
-
-	UPROPERTY(EditAnywhere, Category = "Jumping")
-	float VerticalVelocity = 0;
-
-	float JumpHeight = 200;
-
-	float CurrentVelocity;
-
-	bool bIsJumping;
-
-	float Timer = 0;
-
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -42,5 +28,7 @@ public:
 
 	void StartJump();
 	void StopJump();
+
+	void GameOver();
 
 };
