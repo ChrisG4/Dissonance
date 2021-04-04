@@ -46,16 +46,18 @@ void APlayerPawn::TopStartJump()
 
 void APlayerPawn::TopStopJump()
 {
-	TopCharacter->StopJump();
+	if (TopCharacter != nullptr)
+		TopCharacter->StopJump();
 }
 
 void APlayerPawn::BottomStartJump()
 {
-	print("Pawn bottom Jump");
-	BottomCharacter->StartJump();
+	if(BottomCharacter != nullptr)
+		BottomCharacter->StartJump();
 }
 
 void APlayerPawn::BottomStopJump()
 {
-	BottomCharacter->StopJump();
+	if (BottomCharacter != nullptr)
+		BottomCharacter->StopJump();
 }

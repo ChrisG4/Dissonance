@@ -33,7 +33,6 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 void APlayerCharacter::StartJump()
 {
-	print("Bottom character Jump");
 	this->bPressedJump = true;
 }
 

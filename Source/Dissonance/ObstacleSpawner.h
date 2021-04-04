@@ -4,26 +4,22 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Components/StaticMeshComponent.h"
-#include "Obstacle.generated.h"
+#include "ObstacleSpawner.generated.h"
 
 UCLASS()
-class DISSONANCE_API AObstacle : public AActor
+class DISSONANCE_API AObstacleSpawner : public AActor
 {
 	GENERATED_BODY()
+	
+public:	
+	// Sets default values for this actor's properties
+	AObstacleSpawner();
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditDefaultsOnly)
-	UStaticMeshComponent* ObstacleMesh;
-
-	float ObstacleSpeed;
-
 public:	
-
-	AObstacle();
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
