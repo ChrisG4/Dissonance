@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/StaticMeshComponent.h"
+#include "Components/SceneComponent.h"
 #include "Obstacle.generated.h"
 
 UCLASS()
@@ -16,15 +17,23 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	UPROPERTY(EditAnywhere)
+	USceneComponent* ObstacleRoot;
+
 	UPROPERTY(EditDefaultsOnly)
 	UStaticMeshComponent* ObstacleMesh;
 
 	float ObstacleSpeed;
+	
+	float XDespawnPoint;
+
 
 public:	
 
 	AObstacle();
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	void SetDespawnLocation(FVector DespawnLocation);
 
 };
