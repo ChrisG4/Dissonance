@@ -16,13 +16,8 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY(EditDefaultsOnly, Category = "Obstacle Spawning")
-	TArray<TSubclassOf<AObstacle>> Obstacles;
-
 	UPROPERTY(EditAnywhere, meta = (MakeEditWidget))
 	FVector ObstacleDespawnLocation;
-
-	float ObstacleSpawnInterval = 5;
 
 	float ObstacleSpawnTimer;
 
@@ -32,5 +27,5 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
-	void SpawnObstacle();
+	virtual void SpawnObstacle();
 };

@@ -27,7 +27,6 @@ protected:
 	
 	float XDespawnPoint;
 
-
 public:	
 
 	AObstacle();

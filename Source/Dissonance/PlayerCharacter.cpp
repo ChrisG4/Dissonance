@@ -16,6 +16,8 @@ APlayerCharacter::APlayerCharacter()
 void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	this->XPosition = this->GetActorLocation().X;
 	
 }
 
@@ -23,6 +25,11 @@ void APlayerCharacter::BeginPlay()
 void APlayerCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if (GetActorLocation().X != XPosition)
+	{
+		SetActorLocation(FVector(XPosition, GetActorLocation().Y, GetActorLocation().Z));
+	}
 }
 
 // Called to bind functionality to input
