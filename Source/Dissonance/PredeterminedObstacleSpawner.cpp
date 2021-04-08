@@ -13,11 +13,6 @@ void APredeterminedObstacleSpawner::BeginPlay()
 void APredeterminedObstacleSpawner::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	if (ObstacleSpawnTimer <= 0)
-	{
-		SpawnObstacle();
-	}
 }
 
 void APredeterminedObstacleSpawner::SpawnObstacle()

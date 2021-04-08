@@ -26,6 +26,10 @@ void AObstacleSpawner::Tick(float DeltaTime)
 
 	ObstacleSpawnTimer -= DeltaTime;
 
+	if (ObstacleSpawnTimer <= 0)
+	{
+		SpawnObstacle();
+	}
 }
 
 void AObstacleSpawner::SpawnObstacle()
