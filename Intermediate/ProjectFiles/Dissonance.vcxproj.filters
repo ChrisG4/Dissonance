@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Dissonance.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{9A6B5DDA-BB15-43C8-9EAA-40715F75DC0F}</UniqueIdentifier>
+      <UniqueIdentifier>{7503AF26-D79C-43BB-A4AB-63988F83F3AB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Dissonance.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{7DAF8AD8-6937-471A-85AC-65C5B5BD8424}</UniqueIdentifier>
+      <UniqueIdentifier>{C13FAB27-07C2-43E9-AD66-8E1D614486D9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Dissonance">
-      <UniqueIdentifier>{DFEE2048-B635-4707-9ED4-6584BA20A364}</UniqueIdentifier>
+      <UniqueIdentifier>{646076E2-7502-4822-90A6-67220C7314C9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Dissonance\Dissonance.Build.cs">
       <Filter>Source\Dissonance</Filter>
@@ -64,6 +64,12 @@
     <ClInclude Include="..\..\Source\Dissonance\Obstacle.h">
       <Filter>Source\Dissonance</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Dissonance\ObstacleSpawner.cpp">
+      <Filter>Source\Dissonance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dissonance\ObstacleSpawner.h">
+      <Filter>Source\Dissonance</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Dissonance\PlayerCharacter.cpp">
       <Filter>Source\Dissonance</Filter>
     </ClCompile>
@@ -80,6 +86,18 @@
       <Filter>Source\Dissonance</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Dissonance\PlayerSquare.h">
+      <Filter>Source\Dissonance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dissonance\PredeterminedObstacleSpawner.cpp">
+      <Filter>Source\Dissonance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dissonance\PredeterminedObstacleSpawner.h">
+      <Filter>Source\Dissonance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dissonance\RandomObstacleSpawner.cpp">
+      <Filter>Source\Dissonance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dissonance\RandomObstacleSpawner.h">
       <Filter>Source\Dissonance</Filter>
     </ClInclude>
   </ItemGroup>
