@@ -1,5 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
+#define print(text) if(GEngine)GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Green, text);
 
 #include "PredeterminedObstacleSpawner.h"
 
@@ -13,6 +13,8 @@ void APredeterminedObstacleSpawner::BeginPlay()
 void APredeterminedObstacleSpawner::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	GameTimer += DeltaTime;
 }
 
 void APredeterminedObstacleSpawner::SpawnObstacle()
@@ -24,9 +26,17 @@ void APredeterminedObstacleSpawner::SpawnObstacle()
 		NewObstacle->SetDespawnLocation(this->GetActorLocation() + ObstacleDespawnLocation);
 
 		UpdateListIndex();
+		SetSpawnInterval();
 
-		ObstacleSpawnTimer = PredeterminedObstacles[ListIndex].DelayBeforeSpawn;
+		print("GameTime: " + FString::SanitizeFloat(GameTimer));
+
 	}
+}
+
+//Stops the spawn delays from compounding
+void APredeterminedObstacleSpawner::SetSpawnInterval()
+{
+	ObstacleSpawnTimer += PredeterminedObstacles[ListIndex].DelayBeforeSpawn;
 }
 
 void APredeterminedObstacleSpawner::UpdateListIndex()

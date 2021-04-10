@@ -36,11 +36,14 @@ protected:
 	TArray<FPredeterminedObstacle> PredeterminedObstacles;
 
 	int32 ListIndex = 0;
+
+	float GameTimer = 0.0f;
 public:
 	void Tick(float DeltaTime) override;
 
 	void SpawnObstacle() override;
-	
+	void SetSpawnInterval();
+
 	void UpdateListIndex();
 
 };
