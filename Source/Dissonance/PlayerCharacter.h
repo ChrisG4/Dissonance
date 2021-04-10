@@ -31,6 +31,9 @@ public:
 	void StartJump();
 	void StopJump();
 
+	UFUNCTION(BlueprintImplementableEvent)
+	void CallGameOver();
+
 	void GameOver();
 
 };

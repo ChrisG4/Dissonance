@@ -50,5 +50,5 @@ void APlayerCharacter::StopJump()
 
 void APlayerCharacter::GameOver()
 {
-	print("Game Over");
+	CallGameOver();
 }
