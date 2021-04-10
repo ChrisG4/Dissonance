@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Dissonance.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7503AF26-D79C-43BB-A4AB-63988F83F3AB}</UniqueIdentifier>
+      <UniqueIdentifier>{5490C46D-FDF4-4E1B-8E76-32DA2FE57454}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Dissonance.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{C13FAB27-07C2-43E9-AD66-8E1D614486D9}</UniqueIdentifier>
+      <UniqueIdentifier>{FE27A7DB-B728-4C79-9CE9-82BDF0B0C097}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Dissonance">
-      <UniqueIdentifier>{646076E2-7502-4822-90A6-67220C7314C9}</UniqueIdentifier>
+      <UniqueIdentifier>{8BB25BFC-679B-46C1-A39E-582EE2D3F937}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Dissonance\Dissonance.Build.cs">
       <Filter>Source\Dissonance</Filter>

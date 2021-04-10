@@ -1,0 +1,5 @@
+D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\Definitions.Dissonance.h
+D:\Unreal Projects\Dissonance\Source\Dissonance\ObstacleSpawner.h
+D:\Unreal Projects\Dissonance\Source\Dissonance\Obstacle.h
+D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Inc\Dissonance\Obstacle.generated.h
+D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Inc\Dissonance\ObstacleSpawner.generated.h
