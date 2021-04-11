@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DISSONANCE_ObstacleSpawner_generated_h
 
-#define Dissonance_Source_Dissonance_ObstacleSpawner_h_13_SPARSE_DATA
-#define Dissonance_Source_Dissonance_ObstacleSpawner_h_13_RPC_WRAPPERS
-#define Dissonance_Source_Dissonance_ObstacleSpawner_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define Dissonance_Source_Dissonance_ObstacleSpawner_h_13_INCLASS_NO_PURE_DECLS \
+#define Dissonance_Source_Dissonance_ObstacleSpawner_h_19_SPARSE_DATA
+#define Dissonance_Source_Dissonance_ObstacleSpawner_h_19_RPC_WRAPPERS
+#define Dissonance_Source_Dissonance_ObstacleSpawner_h_19_RPC_WRAPPERS_NO_PURE_DECLS
+#define Dissonance_Source_Dissonance_ObstacleSpawner_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAObstacleSpawner(); \
 	friend struct Z_Construct_UClass_AObstacleSpawner_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AObstacleSpawner)
 
 
-#define Dissonance_Source_Dissonance_ObstacleSpawner_h_13_INCLASS \
+#define Dissonance_Source_Dissonance_ObstacleSpawner_h_19_INCLASS \
 private: \
 	static void StaticRegisterNativesAObstacleSpawner(); \
 	friend struct Z_Construct_UClass_AObstacleSpawner_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AObstacleSpawner)
 
 
-#define Dissonance_Source_Dissonance_ObstacleSpawner_h_13_STANDARD_CONSTRUCTORS \
+#define Dissonance_Source_Dissonance_ObstacleSpawner_h_19_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AObstacleSpawner(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AObstacleSpawner) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Dissonance_Source_Dissonance_ObstacleSpawner_h_13_ENHANCED_CONSTRUCTORS \
+#define Dissonance_Source_Dissonance_ObstacleSpawner_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AObstacleSpawner(AObstacleSpawner&&); \
@@ -58,31 +58,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AObstacleSpawner); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AObstacleSpawner)
 
 
-#define Dissonance_Source_Dissonance_ObstacleSpawner_h_13_PRIVATE_PROPERTY_OFFSET \
+#define Dissonance_Source_Dissonance_ObstacleSpawner_h_19_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__SpawnLocations() { return STRUCT_OFFSET(AObstacleSpawner, SpawnLocations); } \
 	FORCEINLINE static uint32 __PPO__ObstacleDespawnLocation() { return STRUCT_OFFSET(AObstacleSpawner, ObstacleDespawnLocation); }
 
 
-#define Dissonance_Source_Dissonance_ObstacleSpawner_h_10_PROLOG
-#define Dissonance_Source_Dissonance_ObstacleSpawner_h_13_GENERATED_BODY_LEGACY \
+#define Dissonance_Source_Dissonance_ObstacleSpawner_h_16_PROLOG
+#define Dissonance_Source_Dissonance_ObstacleSpawner_h_19_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Dissonance_Source_Dissonance_ObstacleSpawner_h_13_PRIVATE_PROPERTY_OFFSET \
-	Dissonance_Source_Dissonance_ObstacleSpawner_h_13_SPARSE_DATA \
-	Dissonance_Source_Dissonance_ObstacleSpawner_h_13_RPC_WRAPPERS \
-	Dissonance_Source_Dissonance_ObstacleSpawner_h_13_INCLASS \
-	Dissonance_Source_Dissonance_ObstacleSpawner_h_13_STANDARD_CONSTRUCTORS \
+	Dissonance_Source_Dissonance_ObstacleSpawner_h_19_PRIVATE_PROPERTY_OFFSET \
+	Dissonance_Source_Dissonance_ObstacleSpawner_h_19_SPARSE_DATA \
+	Dissonance_Source_Dissonance_ObstacleSpawner_h_19_RPC_WRAPPERS \
+	Dissonance_Source_Dissonance_ObstacleSpawner_h_19_INCLASS \
+	Dissonance_Source_Dissonance_ObstacleSpawner_h_19_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Dissonance_Source_Dissonance_ObstacleSpawner_h_13_GENERATED_BODY \
+#define Dissonance_Source_Dissonance_ObstacleSpawner_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Dissonance_Source_Dissonance_ObstacleSpawner_h_13_PRIVATE_PROPERTY_OFFSET \
-	Dissonance_Source_Dissonance_ObstacleSpawner_h_13_SPARSE_DATA \
-	Dissonance_Source_Dissonance_ObstacleSpawner_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	Dissonance_Source_Dissonance_ObstacleSpawner_h_13_INCLASS_NO_PURE_DECLS \
-	Dissonance_Source_Dissonance_ObstacleSpawner_h_13_ENHANCED_CONSTRUCTORS \
+	Dissonance_Source_Dissonance_ObstacleSpawner_h_19_PRIVATE_PROPERTY_OFFSET \
+	Dissonance_Source_Dissonance_ObstacleSpawner_h_19_SPARSE_DATA \
+	Dissonance_Source_Dissonance_ObstacleSpawner_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	Dissonance_Source_Dissonance_ObstacleSpawner_h_19_INCLASS_NO_PURE_DECLS \
+	Dissonance_Source_Dissonance_ObstacleSpawner_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -93,4 +94,7 @@ template<> DISSONANCE_API UClass* StaticClass<class AObstacleSpawner>();
 #define CURRENT_FILE_ID Dissonance_Source_Dissonance_ObstacleSpawner_h
 
 
+#define FOREACH_ENUM_SPAWNPOINT(op) \
+	op(SpawnPoint1) \
+	op(SpawnPoint2) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

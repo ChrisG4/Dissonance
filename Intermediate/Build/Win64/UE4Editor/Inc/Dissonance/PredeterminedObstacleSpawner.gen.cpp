@@ -15,6 +15,7 @@ void EmptyLinkFunctionForGeneratedCodePredeterminedObstacleSpawner() {}
 // Cross Module References
 	DISSONANCE_API UScriptStruct* Z_Construct_UScriptStruct_FPredeterminedObstacle();
 	UPackage* Z_Construct_UPackage__Script_Dissonance();
+	DISSONANCE_API UEnum* Z_Construct_UEnum_Dissonance_SpawnPoint();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	DISSONANCE_API UClass* Z_Construct_UClass_AObstacle_NoRegister();
 	DISSONANCE_API UClass* Z_Construct_UClass_APredeterminedObstacleSpawner_NoRegister();
@@ -50,6 +51,10 @@ static struct FScriptStruct_Dissonance_StaticRegisterNativesFPredeterminedObstac
 #endif
 		static void* NewStructOps();
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ObstacleSpawnPoint_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_ObstacleSpawnPoint;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DelayBeforeSpawn_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DelayBeforeSpawn;
@@ -70,6 +75,13 @@ static struct FScriptStruct_Dissonance_StaticRegisterNativesFPredeterminedObstac
 		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FPredeterminedObstacle>();
 	}
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPredeterminedObstacle_Statics::NewProp_ObstacleSpawnPoint_MetaData[] = {
+		{ "Category", "PredeterminedObstacle" },
+		{ "ModuleRelativePath", "PredeterminedObstacleSpawner.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FPredeterminedObstacle_Statics::NewProp_ObstacleSpawnPoint = { "ObstacleSpawnPoint", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FPredeterminedObstacle, ObstacleSpawnPoint), Z_Construct_UEnum_Dissonance_SpawnPoint, METADATA_PARAMS(Z_Construct_UScriptStruct_FPredeterminedObstacle_Statics::NewProp_ObstacleSpawnPoint_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPredeterminedObstacle_Statics::NewProp_ObstacleSpawnPoint_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FPredeterminedObstacle_Statics::NewProp_DelayBeforeSpawn_MetaData[] = {
 		{ "Category", "Obstacle List" },
 		{ "ModuleRelativePath", "PredeterminedObstacleSpawner.h" },
@@ -84,6 +96,7 @@ static struct FScriptStruct_Dissonance_StaticRegisterNativesFPredeterminedObstac
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UScriptStruct_FPredeterminedObstacle_Statics::NewProp_ObstacleType = { "ObstacleType", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FPredeterminedObstacle, ObstacleType), Z_Construct_UClass_AObstacle_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UScriptStruct_FPredeterminedObstacle_Statics::NewProp_ObstacleType_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FPredeterminedObstacle_Statics::NewProp_ObstacleType_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FPredeterminedObstacle_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPredeterminedObstacle_Statics::NewProp_ObstacleSpawnPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPredeterminedObstacle_Statics::NewProp_DelayBeforeSpawn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FPredeterminedObstacle_Statics::NewProp_ObstacleType,
 	};
@@ -115,7 +128,7 @@ static struct FScriptStruct_Dissonance_StaticRegisterNativesFPredeterminedObstac
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FPredeterminedObstacle_Hash() { return 226372571U; }
+	uint32 Get_Z_Construct_UScriptStruct_FPredeterminedObstacle_Hash() { return 330018014U; }
 	void APredeterminedObstacleSpawner::StaticRegisterNativesAPredeterminedObstacleSpawner()
 	{
 	}
@@ -206,7 +219,7 @@ static struct FScriptStruct_Dissonance_StaticRegisterNativesFPredeterminedObstac
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APredeterminedObstacleSpawner, 2110347267);
+	IMPLEMENT_CLASS(APredeterminedObstacleSpawner, 975199100);
 	template<> DISSONANCE_API UClass* StaticClass<APredeterminedObstacleSpawner>()
 	{
 		return APredeterminedObstacleSpawner::StaticClass();

@@ -20,10 +20,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 template<> DISSONANCE_API UScriptStruct* StaticStruct<struct FPredeterminedObstacle>();
 
-#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_SPARSE_DATA
-#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_RPC_WRAPPERS
-#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_RPC_WRAPPERS_NO_PURE_DECLS
-#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_INCLASS_NO_PURE_DECLS \
+#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_SPARSE_DATA
+#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_RPC_WRAPPERS
+#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_RPC_WRAPPERS_NO_PURE_DECLS
+#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPredeterminedObstacleSpawner(); \
 	friend struct Z_Construct_UClass_APredeterminedObstacleSpawner_Statics; \
@@ -32,7 +32,7 @@ public: \
 	DECLARE_SERIALIZER(APredeterminedObstacleSpawner)
 
 
-#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_INCLASS \
+#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_INCLASS \
 private: \
 	static void StaticRegisterNativesAPredeterminedObstacleSpawner(); \
 	friend struct Z_Construct_UClass_APredeterminedObstacleSpawner_Statics; \
@@ -41,7 +41,7 @@ public: \
 	DECLARE_SERIALIZER(APredeterminedObstacleSpawner)
 
 
-#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_STANDARD_CONSTRUCTORS \
+#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APredeterminedObstacleSpawner(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APredeterminedObstacleSpawner) \
@@ -54,7 +54,7 @@ private: \
 public:
 
 
-#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_ENHANCED_CONSTRUCTORS \
+#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APredeterminedObstacleSpawner() { }; \
 private: \
@@ -67,32 +67,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APredeterminedObstacleSpawner); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APredeterminedObstacleSpawner)
 
 
-#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_PRIVATE_PROPERTY_OFFSET \
+#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__bListLoops() { return STRUCT_OFFSET(APredeterminedObstacleSpawner, bListLoops); } \
 	FORCEINLINE static uint32 __PPO__PredeterminedObstacles() { return STRUCT_OFFSET(APredeterminedObstacleSpawner, PredeterminedObstacles); }
 
 
-#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_23_PROLOG
-#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_GENERATED_BODY_LEGACY \
+#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_28_PROLOG
+#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_PRIVATE_PROPERTY_OFFSET \
-	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_SPARSE_DATA \
-	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_RPC_WRAPPERS \
-	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_INCLASS \
-	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_STANDARD_CONSTRUCTORS \
+	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_PRIVATE_PROPERTY_OFFSET \
+	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_SPARSE_DATA \
+	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_RPC_WRAPPERS \
+	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_INCLASS \
+	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_GENERATED_BODY \
+#define Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_PRIVATE_PROPERTY_OFFSET \
-	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_SPARSE_DATA \
-	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_RPC_WRAPPERS_NO_PURE_DECLS \
-	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_INCLASS_NO_PURE_DECLS \
-	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_26_ENHANCED_CONSTRUCTORS \
+	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_PRIVATE_PROPERTY_OFFSET \
+	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_SPARSE_DATA \
+	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_RPC_WRAPPERS_NO_PURE_DECLS \
+	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_INCLASS_NO_PURE_DECLS \
+	Dissonance_Source_Dissonance_PredeterminedObstacleSpawner_h_31_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

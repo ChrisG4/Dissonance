@@ -104,7 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeRandomObstacleSpawner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARandomObstacleSpawner, 3727333264);
+	IMPLEMENT_CLASS(ARandomObstacleSpawner, 2137775375);
 	template<> DISSONANCE_API UClass* StaticClass<ARandomObstacleSpawner>()
 	{
 		return ARandomObstacleSpawner::StaticClass();
