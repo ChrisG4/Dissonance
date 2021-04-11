@@ -1,0 +1,38 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Dissonance-2434.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\DissonanceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\BackgroundActor.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\Dissonance.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\DissonanceController.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\DissonanceGameModeBase.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\HazardBox.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\Obstacle.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\ObstacleSpawner.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\PlayerCharacter.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\PlayerPawn.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\PlayerSquare.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\PredeterminedObstacleSpawner.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\PurpleStar.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\RandomObstacleSpawner.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\BackgroundActor.gen.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\Dissonance.init.gen.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\DissonanceController.gen.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\DissonanceGameModeBase.gen.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\HazardBox.gen.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\Obstacle.gen.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\ObstacleSpawner.gen.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\PlayerCharacter.gen.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\PlayerPawn.gen.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\PlayerSquare.gen.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\PredeterminedObstacleSpawner.gen.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\PurpleStar.gen.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\RandomObstacleSpawner.gen.cpp.obj"
+"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\Default.rc2.res"
+/OUT:"D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\UE4Editor-Dissonance-2434.lib"
+/INCLUDE:IMPLEMENT_MODULE_Dissonance

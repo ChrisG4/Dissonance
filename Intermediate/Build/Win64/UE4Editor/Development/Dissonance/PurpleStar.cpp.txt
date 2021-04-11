@@ -1,0 +1,7 @@
+D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Development\Dissonance\Definitions.Dissonance.h
+D:\Unreal Projects\Dissonance\Source\Dissonance\PurpleStar.h
+D:\Unreal Projects\Dissonance\Source\Dissonance\BackgroundActor.h
+D:\UE_4.26\Engine\Plugins\2D\Paper2D\Source\Paper2D\Classes\PaperSpriteComponent.h
+D:\UE_4.26\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4Editor\Inc\Paper2D\PaperSpriteComponent.generated.h
+D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Inc\Dissonance\BackgroundActor.generated.h
+D:\Unreal Projects\Dissonance\Intermediate\Build\Win64\UE4Editor\Inc\Dissonance\PurpleStar.generated.h

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Dissonance.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5490C46D-FDF4-4E1B-8E76-32DA2FE57454}</UniqueIdentifier>
+      <UniqueIdentifier>{B9CC9DF9-58DD-4D78-8CF8-8632971A66B1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Dissonance.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{FE27A7DB-B728-4C79-9CE9-82BDF0B0C097}</UniqueIdentifier>
+      <UniqueIdentifier>{730D14A0-3F6F-4BEA-8B1D-47D2EC0AD13E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,8 +29,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Dissonance">
-      <UniqueIdentifier>{8BB25BFC-679B-46C1-A39E-582EE2D3F937}</UniqueIdentifier>
+      <UniqueIdentifier>{3FC9BE94-9B00-4F9B-8139-A3CAE9FD322B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Dissonance\BackgroundActor.cpp">
+      <Filter>Source\Dissonance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dissonance\BackgroundActor.h">
+      <Filter>Source\Dissonance</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Dissonance\Dissonance.Build.cs">
       <Filter>Source\Dissonance</Filter>
     </None>
@@ -92,6 +98,12 @@
       <Filter>Source\Dissonance</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Dissonance\PredeterminedObstacleSpawner.h">
+      <Filter>Source\Dissonance</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dissonance\PurpleStar.cpp">
+      <Filter>Source\Dissonance</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dissonance\PurpleStar.h">
       <Filter>Source\Dissonance</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Dissonance\RandomObstacleSpawner.cpp">
