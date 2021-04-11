@@ -7,7 +7,14 @@ void APredeterminedObstacleSpawner::BeginPlay()
 {
 	Super::BeginPlay();
 
-	this->ObstacleSpawnTimer = PredeterminedObstacles[0].DelayBeforeSpawn;
+	if (PredeterminedObstacles.Num() > 0) 
+	{
+		this->ObstacleSpawnTimer = PredeterminedObstacles[0].DelayBeforeSpawn;
+	}
+	else
+	{
+		this->Destroy();
+	}
 }
 
 void APredeterminedObstacleSpawner::Tick(float DeltaTime)
@@ -22,7 +29,9 @@ void APredeterminedObstacleSpawner::SpawnObstacle()
 	if (PredeterminedObstacles[ListIndex].ObstacleType != nullptr && PredeterminedObstacles[ListIndex].DelayBeforeSpawn >= 0)
 	{
 		//Create Obstacle
-		AObstacle* NewObstacle = GetWorld()->SpawnActor<AObstacle>(PredeterminedObstacles[ListIndex].ObstacleType, GetActorLocation(), FRotator(0, 0, 0));
+		FVector ObstacleSpawnLocation = GetActorLocation() + SpawnLocations[PredeterminedObstacles[ListIndex].ObstacleSpawnPoint];
+
+		AObstacle* NewObstacle = GetWorld()->SpawnActor<AObstacle>(PredeterminedObstacles[ListIndex].ObstacleType, ObstacleSpawnLocation, FRotator(0, 0, 0));
 		NewObstacle->SetDespawnLocation(this->GetActorLocation() + ObstacleDespawnLocation);
 
 		UpdateListIndex();

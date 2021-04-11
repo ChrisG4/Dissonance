@@ -13,11 +13,16 @@ struct FPredeterminedObstacle
 
 public:
 
+	UPROPERTY(EditAnywhere)
+	TEnumAsByte<SpawnPoint> ObstacleSpawnPoint;
+
 	UPROPERTY(EditAnywhere, Category = "Obstacle List")
 	float DelayBeforeSpawn = 4;
 		
 	UPROPERTY(EditAnywhere, Category = "Obstacle List")
 	TSubclassOf<AObstacle> ObstacleType;
+
+
 };
 
 UCLASS()
