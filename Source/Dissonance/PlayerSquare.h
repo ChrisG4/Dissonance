@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/StaticMeshComponent.h"
-
+#include "PaperSpriteComponent.h"
 #include "PaperSpriteComponent.h"
 #include "GameFramework/Pawn.h"
 #include "PlayerSquare.generated.h"
@@ -41,6 +41,8 @@ protected:
 
 	UPROPERTY(VisibleAnywhere)
 	float JumpTimer = 0;
+
+	UPaperSpriteComponent* SpriteTest;
 
 public:
 	APlayerSquare();

@@ -31,7 +31,8 @@ void AObstacle::Tick(float DeltaTime)
 
 	SetActorLocation(GetActorLocation() + (FVector(ObstacleSpeed * DeltaTime, 0, 0)));
 
-	if (GetActorLocation().X <= XDespawnPoint)
+	Lifetime -= DeltaTime;
+	if (Lifetime <= 0)
 	{
 		this->Destroy();
 	}

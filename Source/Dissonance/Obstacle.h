@@ -27,6 +27,8 @@ protected:
 	
 	float XDespawnPoint;
 
+	float Lifetime = 4.0f;
+
 public:	
 
 	AObstacle();
