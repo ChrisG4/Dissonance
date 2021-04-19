@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "HazardBox.h"
 
-#include "PlayerCharacter.h"
+#include "..\Player&Input/PlayerCharacter.h"
 
 UHazardBox::UHazardBox()
 {

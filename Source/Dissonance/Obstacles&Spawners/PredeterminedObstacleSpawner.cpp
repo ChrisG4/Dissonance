@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-#define print(text) if(GEngine)GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Green, text);
 
 #include "PredeterminedObstacleSpawner.h"
 
@@ -36,8 +34,6 @@ void APredeterminedObstacleSpawner::SpawnObstacle()
 
 		UpdateListIndex();
 		SetSpawnInterval();
-
-		print("GameTime: " + FString::SanitizeFloat(GameTimer));
 
 	}
 }
